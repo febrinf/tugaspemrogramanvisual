@@ -54,9 +54,11 @@
             this.button4 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.comboBoxKondisi = new System.Windows.Forms.ComboBox();
             this.textBoxDenda = new System.Windows.Forms.TextBox();
             this.search_txt = new System.Windows.Forms.TextBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.comboBoxKondisi = new System.Windows.Forms.ComboBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -83,7 +85,7 @@
             // transaksiToolStripMenuItem
             // 
             this.transaksiToolStripMenuItem.Name = "transaksiToolStripMenuItem";
-            this.transaksiToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
+            this.transaksiToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
             this.transaksiToolStripMenuItem.Text = "Transaksi";
             // 
             // logoutToolStripMenuItem
@@ -142,7 +144,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(449, 102);
+            this.label5.Location = new System.Drawing.Point(465, 126);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(116, 16);
             this.label5.TabIndex = 11;
@@ -153,7 +155,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(449, 134);
+            this.label6.Location = new System.Drawing.Point(465, 158);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(125, 16);
             this.label6.TabIndex = 12;
@@ -183,7 +185,7 @@
             // dateTimePickerPinjam
             // 
             this.dateTimePickerPinjam.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePickerPinjam.Location = new System.Drawing.Point(580, 102);
+            this.dateTimePickerPinjam.Location = new System.Drawing.Point(596, 126);
             this.dateTimePickerPinjam.Name = "dateTimePickerPinjam";
             this.dateTimePickerPinjam.Size = new System.Drawing.Size(105, 20);
             this.dateTimePickerPinjam.TabIndex = 16;
@@ -191,7 +193,7 @@
             // dateTimePickerKembali
             // 
             this.dateTimePickerKembali.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePickerKembali.Location = new System.Drawing.Point(580, 132);
+            this.dateTimePickerKembali.Location = new System.Drawing.Point(596, 156);
             this.dateTimePickerKembali.Name = "dateTimePickerKembali";
             this.dateTimePickerKembali.Size = new System.Drawing.Size(105, 20);
             this.dateTimePickerKembali.TabIndex = 17;
@@ -201,7 +203,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label7.Location = new System.Drawing.Point(39, 246);
+            this.label7.Location = new System.Drawing.Point(40, 269);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(129, 16);
             this.label7.TabIndex = 18;
@@ -214,7 +216,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(42, 265);
+            this.dataGridView1.Location = new System.Drawing.Point(43, 288);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(711, 150);
             this.dataGridView1.TabIndex = 19;
@@ -223,7 +225,7 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(661, 194);
+            this.button3.Location = new System.Drawing.Point(677, 218);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 32;
@@ -234,7 +236,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(580, 194);
+            this.button2.Location = new System.Drawing.Point(596, 218);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 31;
@@ -245,7 +247,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(499, 194);
+            this.button1.Location = new System.Drawing.Point(515, 218);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 30;
@@ -258,7 +260,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label8.Location = new System.Drawing.Point(440, 161);
+            this.label8.Location = new System.Drawing.Point(456, 185);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(50, 16);
             this.label8.TabIndex = 33;
@@ -269,7 +271,7 @@
             this.radioButton1.AutoSize = true;
             this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.radioButton1.Location = new System.Drawing.Point(496, 161);
+            this.radioButton1.Location = new System.Drawing.Point(512, 185);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(119, 17);
             this.radioButton1.TabIndex = 34;
@@ -282,7 +284,7 @@
             this.radioButton2.AutoSize = true;
             this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.radioButton2.Location = new System.Drawing.Point(615, 161);
+            this.radioButton2.Location = new System.Drawing.Point(631, 185);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(121, 17);
             this.radioButton2.TabIndex = 35;
@@ -293,7 +295,7 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(661, 194);
+            this.button4.Location = new System.Drawing.Point(677, 218);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 36;
@@ -323,19 +325,6 @@
             this.label10.TabIndex = 39;
             this.label10.Text = "Denda";
             // 
-            // comboBoxKondisi
-            // 
-            this.comboBoxKondisi.FormattingEnabled = true;
-            this.comboBoxKondisi.Items.AddRange(new object[] {
-            "Baik",
-            "Rusak",
-            "Hilang"});
-            this.comboBoxKondisi.Location = new System.Drawing.Point(186, 185);
-            this.comboBoxKondisi.Name = "comboBoxKondisi";
-            this.comboBoxKondisi.Size = new System.Drawing.Size(91, 21);
-            this.comboBoxKondisi.TabIndex = 41;
-            this.comboBoxKondisi.SelectedIndexChanged += new System.EventHandler(this.comboBoxKondisi_SelectedIndexChanged);
-            // 
             // textBoxDenda
             // 
             this.textBoxDenda.Location = new System.Drawing.Point(338, 185);
@@ -345,7 +334,7 @@
             // 
             // search_txt
             // 
-            this.search_txt.Location = new System.Drawing.Point(531, 239);
+            this.search_txt.Location = new System.Drawing.Point(532, 262);
             this.search_txt.Name = "search_txt";
             this.search_txt.Size = new System.Drawing.Size(222, 20);
             this.search_txt.TabIndex = 43;
@@ -353,14 +342,47 @@
             this.search_txt.Enter += new System.EventHandler(this.search_txt_Enter);
             this.search_txt.Leave += new System.EventHandler(this.search_txt_Leave);
             // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(549, 95);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 44;
+            this.button5.Text = "Lama";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button6
+            // 
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Location = new System.Drawing.Point(468, 95);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.TabIndex = 45;
+            this.button6.Text = "Singkat";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // comboBoxKondisi
+            // 
+            this.comboBoxKondisi.FormattingEnabled = true;
+            this.comboBoxKondisi.Location = new System.Drawing.Point(186, 184);
+            this.comboBoxKondisi.Name = "comboBoxKondisi";
+            this.comboBoxKondisi.Size = new System.Drawing.Size(91, 21);
+            this.comboBoxKondisi.TabIndex = 46;
+            this.comboBoxKondisi.SelectedIndexChanged += new System.EventHandler(this.comboBoxKondisi_SelectedIndexChanged);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.BackColor = System.Drawing.Color.DodgerBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.search_txt);
             this.Controls.Add(this.comboBoxKondisi);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.search_txt);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.textBoxDenda);
             this.Controls.Add(this.label9);
@@ -425,8 +447,10 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.ComboBox comboBoxKondisi;
         private System.Windows.Forms.TextBox textBoxDenda;
         private System.Windows.Forms.TextBox search_txt;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.ComboBox comboBoxKondisi;
     }
 }
